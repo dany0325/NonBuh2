@@ -24,7 +24,7 @@
         public int SumThree(int num1, int num2, int num3)
         {
             // TODO : Implement sum of three numbers
-            throw new NotImplementedException();
+            return num1 + num2 + num3;
         }
 
 
