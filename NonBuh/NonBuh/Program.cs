@@ -91,11 +91,11 @@
         public string Season(int month)
         {
             // TODO : Return season based on month value
-            if (month > 2 || month < 6)
+            if (month > 2 && month < 6)
             { return "spring"; }
-            else if (month > 5 || month < 9)
+            else if (month > 5 && month < 9)
             { return "summer"; }
-            else if (month > 8 || month < 12)
+            else if (month > 8 && month < 12)
             { return "fall"; }
             else { return "winter"; }
         }
