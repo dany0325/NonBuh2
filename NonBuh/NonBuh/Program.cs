@@ -37,7 +37,8 @@
         public int Smaller(int num1, int num2)
         {
             // TODO : Implement minimum comparison
-            throw new NotImplementedException();
+            if (num1 > num2) { return num2; }
+            else { return num1; }
         }
 
 
