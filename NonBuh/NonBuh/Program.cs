@@ -111,7 +111,9 @@
         public string EvenOdd(int num)
         {
             // TODO : Determine if number is even or odd
-            throw new NotImplementedException();
+            if (num % 2 == 0)
+            { return "even"; }
+            else { return "odd"; }
         }
 
 
